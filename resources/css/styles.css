@@ -1,0 +1,86 @@
+/* En tu archivo CSS */
+/* Establecer el estilo básico del cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f3ee;
+    color: #463f3a;
+  }
+  
+  /* Centrar el contenido de la página */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #e0afa0;
+  }
+  
+  /* Estilo para el encabezado (nav bar) */
+  .header {
+    background-color: #8a817c;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilo para los botones del encabezado */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bcb8b1;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  /* Estilo para el pie de página */
+  .footer {
+    background-color: #8a817c;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilo para los formularios */
+  .form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #bcb8b1;
+    background-color: #f4f3ee;
+  }
+  
+  /* Estilo para los márgenes laterales */
+  .margin {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #e0afa0;
+    border: 1px solid #463f3a;
+  }
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Alineación horizontal */
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.nav-list li a:hover {
+    background-color: #333;
+    color: #fff;
+}
